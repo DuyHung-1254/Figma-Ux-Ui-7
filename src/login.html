@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div">
+        <div class="div-2">
+          <a href="../index.html">
+
+            <img
+              loading="lazy"
+              src="./asset/white_quizizz.png"
+              class="img"
+            />
+          </a>
+        </div>
+        <div class="div-3">Đăng nhập vào Quizizz
+
+        </div>
+        <div class="div-4">
+          <a href="./admin.html">Đăng nhập với Google</a>
+        </div>
+        <div class="div-5">
+          <a href="./admin.html">Đăng nhập với Facebook</a>
+        </div>
+        <div class="div-6">
+          <a href="./admin.html">Đăng nhập với Microsoft</a>
+        </div>
+        <div class="div-7">
+          <div class="div-8">
+            <div class="column">
+              <img
+                loading="lazy"
+                src="./asset/img_dangnhap.png"
+                class="img-2"
+              />
+            </div>
+            <div class="column-2">
+              <div class="div-9">
+                <div class="div-10">Gặp vấn đề?</div>
+                <div class="div-11">
+                  <a class = 'error'href="">Báo lỗi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style>
+
+        .error{
+          color: blue;
+        }
+        a:hover,
+        a:focus {
+            color: #c9d0d5; /* Màu sắc khi hover hoặc focus */
+        }
+        a {
+            text-decoration: none;
+            color: #f8eded; /* Màu sắc mặc định */
+            transition: color 0.3s; /* Hiệu ứng chuyển đổi màu sắc trong 0.3 giây */
+        }
+        a{
+          text-decoration: none;
+        }
+        .div {
+          background-color: var(--M3-sys-light-inverse-on-surface, #f5eff7);
+          display: flex;
+          max-width: 480px;
+          width: 430px;
+          height: 932px;
+          padding-bottom: 50px;
+          flex-direction: column;
+          margin: 0 auto;
+        }
+        .div-2 {
+      align-items: start;
+      border: 1px solid var(--M3-sys-light-on-surface-variant, #49454f);
+      background-color: var(--M3-sys-light-primary, #6750a4);
+      align-self: stretch;
+      display: flex;
+      width: 309px;
+      /* height: ; */
+      flex-direction: column;
+      justify-content: center;
+      padding: 16px 104px 16px 15px;
+    }
+        .img {
+          aspect-ratio: 3.69;
+          object-fit: contain;
+          object-position: center;
+          width: 96px;
+          overflow: hidden;
+          max-width: 100%;
+        }
+        .div-3 {
+          color: var(--M3-black, #000);
+          text-align: center;
+          align-self: center;
+          margin-top: 193px;
+          white-space: nowrap;
+          font: 400 22px/127% Roboto, sans-serif;
+        }
+        .div-4 {
+        color: var(--M3-sys-light-on-primary, #fff);
+        text-align: center;
+        letter-spacing: 0.1px;
+        white-space: nowrap;
+        justify-content: center;
+        border-radius: 100px;
+        background-color: var(--M3-sys-light-primary, #6750a4);
+        align-self: center;
+        margin-top: 41px;
+        width: 184px;
+        max-width: 100%;
+        padding: 10px 29px;
+        font: 500 14px/143% Roboto, sans-serif;
+        }
+        .div-5 {
+          color: var(--M3-sys-light-on-primary, #fff);
+          text-align: center;
+          letter-spacing: 0.1px;
+          white-space: nowrap;
+          justify-content: center;
+          border-radius: 100px;
+          background-color: var(--M3-sys-light-primary, #6750a4);
+          align-self: center;
+          margin-top: 15px;
+          width: 197px;
+          max-width: 100%;
+          padding: 10px 21px;
+          font: 500 14px/143% Roboto, sans-serif;
+        }
+        .div-6 {
+          color: var(--M3-sys-light-on-primary, #fff);
+          text-align: center;
+          letter-spacing: 0.1px;
+          white-space: nowrap;
+          justify-content: center;
+          border-radius: 100px;
+          background-color: var(--M3-sys-light-primary, #6750a4);
+          align-self: center;
+          margin-top: 15px;
+          width: 197px;
+          max-width: 100%;
+          padding: 10px 21px;
+          font: 500 14px/143% Roboto, sans-serif;
+        }
+        .div-7 {
+          align-self: stretch;
+          width: 100%;
+          margin: 33px 0 176px;
+        }
+        .div-8 {
+          gap: 20px;
+          display: flex;
+        }
+        @media (max-width: 991px) {
+          .div-8 {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0px;
+          }
+        }
+        .column {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 63%;
+          margin-left: 0px;
+        }
+        @media (max-width: 991px) {
+          .column {
+            width: 100%;
+          }
+        }
+        .img-2 {
+    aspect-ratio: 0.77;
+    object-fit: contain;
+    object-position: center;
+    width: 120px;
+    height: 155px;
+    overflow: hidden;
+    flex-grow: 1;
+    flex: 1;
+    padding-left: 24px;
+}
+        .column-2 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 37%;
+          margin-left: 21px;
+    margin-right: -10px;
+    width: 200px;
+        }
+        @media (max-width: 991px) {
+          .column-2 {
+            width: 100%;
+          }
+        }
+        .div-9 {
+          display: flex;
+          margin-top: 17px;
+          align-items: start;
+          gap: 14px;
+        }
+        .div-10 {
+          color: var(--M3-black, #000);
+          text-align: center;
+          letter-spacing: 0.25px;
+          font: 400 14px/143% Roboto, sans-serif;
+        }
+        .div-11 {
+          color: var(--M3-sys-light-on-primary-fixed-variant, #4f378b);
+          text-align: center;
+          letter-spacing: 0.25px;
+          font: 400 14px/143% Roboto, sans-serif;
+        }
+      </style>
+</body>
+</html>
